@@ -690,6 +690,48 @@ body {
   background: rgba(74, 222, 128, 0.08);
 }
 
+.tag.symfony {
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.28);
+  background: rgba(248, 113, 113, 0.12);
+}
+
+.tag.twig {
+  color: #bbf7d0;
+  border-color: rgba(34, 197, 94, 0.24);
+  background: rgba(34, 197, 94, 0.1);
+}
+
+.tag.tailwind {
+  color: #a5f3fc;
+  border-color: rgba(45, 212, 191, 0.28);
+  background: rgba(45, 212, 191, 0.12);
+}
+
+.tag.stimulus {
+  color: #fde68a;
+  border-color: rgba(245, 158, 11, 0.26);
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.tag.turbo {
+  color: #fdba74;
+  border-color: rgba(249, 115, 22, 0.28);
+  background: rgba(249, 115, 22, 0.1);
+}
+
+.tag.postgresql {
+  color: #bfdbfe;
+  border-color: rgba(59, 130, 246, 0.26);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.tag.docker {
+  color: #bae6fd;
+  border-color: rgba(14, 165, 233, 0.26);
+  background: rgba(14, 165, 233, 0.1);
+}
+
 /* ==========================================================================
    TECH PILLS & SKILLS
    ========================================================================== */
