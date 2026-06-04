@@ -671,6 +671,10 @@ body {
   gap: 14px;
 }
 .contact-btns a {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: center;
   width: 100%;
   min-height: 92px;
   padding: 22px 22px;
@@ -678,6 +682,10 @@ body {
   box-shadow: 0 20px 44px rgba(2, 6, 23, 0.28);
 }
 .contact-btns button {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: center;
   width: 100%;
   min-height: 92px;
   padding: 22px 22px;
@@ -695,6 +703,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
 }
 .contact-btns a strong,
 .contact-btns button strong {
